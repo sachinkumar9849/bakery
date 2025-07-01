@@ -3337,15 +3337,16 @@ figure {
 }
 
 .navbar {
-  background-color: #ddd0;
-  background-image: url("https://cdn.prod.website-files.com/66fbe7207d00e1927a67ca49/6705134ed608d95ff6642c56_Rectangle%2055.png");
+  background-color: #00000000;
+  /* background-image: url("https://cdn.prod.website-files.com/66fbe7207d00e1927a67ca49/6705134ed608d95ff6642c56_Rectangle%2055.png"); */
   background-position: 50% 100%;
   background-repeat: no-repeat;
   background-size: auto;
   padding-top: 0px;
-  padding-bottom: 30px;
+  padding-bottom: 0px;
   position: fixed;
   inset: 0% 0% auto;
+  background: #1b171ae0;
 }
 
 .container {
@@ -12415,9 +12416,10 @@ img.cta-logo {
     overflow: hidden;
 }
 img.nav-logo {
-    width: 200px;
+    width: 186px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+    margin-bottom: 7px;
 }
 .sliderText {
     width: 66%;
