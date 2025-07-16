@@ -188,27 +188,27 @@ td, th {
 }
 
 .w-icon-slider-right:before {
-  content: "î˜€";
+  content: "ÃƒÂ®Ã‹Å“Ã¢â€šÂ¬";
 }
 
 .w-icon-slider-left:before {
-  content: "î˜";
+  content: "ÃƒÂ®Ã‹Å“Ã‚Â";
 }
 
 .w-icon-nav-menu:before {
-  content: "î˜‚";
+  content: "ÃƒÂ®Ã‹Å“Ã¢â‚¬Å¡";
 }
 
 .w-icon-arrow-down:before, .w-icon-dropdown-toggle:before {
-  content: "î˜ƒ";
+  content: "ÃƒÂ®Ã‹Å“Ã†â€™";
 }
 
 .w-icon-file-upload-remove:before {
-  content: "î¤€";
+  content: "ÃƒÂ®Ã‚Â¤Ã¢â€šÂ¬";
 }
 
 .w-icon-file-upload-icon:before {
-  content: "î¤ƒ";
+  content: "ÃƒÂ®Ã‚Â¤Ã†â€™";
 }
 
 * {
@@ -3295,7 +3295,7 @@ h5 {
   margin-top: 0;
   margin-bottom: 0;
   font-family: Yeseva One, sans-serif;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 400;
   line-height: 33.6px;
 }
@@ -3422,7 +3422,7 @@ figure {
 .section {
   background-color: #f5f5f500;
   padding-top: 160px;
-  padding-bottom: 160px;
+  padding-bottom: 100px;
 }
 
 .section.banner-section {
@@ -3459,7 +3459,7 @@ figure {
 
 .section.products {
   background-color: #1a171a;
-  padding-top: 120px;
+  padding-top: 100px;
 }
 
 .section.products.inner-section {
@@ -4019,6 +4019,9 @@ figure {
 
 .offers-main-img {
   max-width: 545px;
+  height: 351px;
+  width: 100%;
+  object-fit: contain;
 }
 
 .offers-left-small-shape {
@@ -4161,7 +4164,7 @@ figure {
   justify-content: flex-start;
   align-items: center;
   max-width: 736px;
-  margin-bottom: 55px;
+  margin-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
   display: flex;
@@ -4181,7 +4184,7 @@ figure {
   align-items: center;
   width: 100%;
   max-width: 872px;
-  margin-bottom: 60px;
+  margin-bottom: 34px;
   margin-left: auto;
   margin-right: auto;
   display: flex;
